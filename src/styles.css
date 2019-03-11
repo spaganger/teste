@@ -1,0 +1,552 @@
+* {
+  overflow-x: none;
+  overflow-y: none;
+}
+body,
+html {
+  height: 100%;
+}
+body {
+  font-family: sans-serif;
+  overflow-x: hidden;
+  background-color: rgb(252, 252, 252);
+}
+
+#container {
+  display: flex;
+  width: 100%;
+  min-width: 283px;
+  height: 100vh;
+  overflow-y: none;
+}
+
+.sideBar {
+  background: white;
+  max-width: 200px;
+  min-width: 200px;
+  height: 123vh;
+  overflow: hidden;
+  box-shadow: 1px 2px lightgrey;
+}
+
+
+.optionItem {
+  height: 53px;
+  cursor: pointer;
+  line-height: 203%;
+  border-left: 5px solid white;
+  padding-top: 8px;
+}
+.optionItem:hover {
+  background-color: #fcfcfc;
+  border-left: 5px solid #32a2a6;
+  padding-right: 24px;
+}
+.board {
+  transform: rotate(180deg);
+}
+.pos-icon1 {
+  position: relative;
+  top: 6px;
+  margin-left: 18px;
+  margin-right: 15px;
+  color: #dea92d;
+}
+.pos-icon2 {
+  position: relative;
+  top: 6px;
+  margin-left: 18px;
+  margin-right: 15px;
+  color: #dea92d;
+}
+
+.avatarCon {
+  width: 223px;
+  height: 124px;
+  min-width: 223px;
+  position: absolute;
+  right: 0;
+  margin-right: 2%;
+}
+
+.avatar {
+  background: #ececec;
+  height: 52px;
+  top: 12px;
+  width: 55px;
+  border-radius: 50%;
+}
+.arrowAvatar {
+  cursor: pointer;
+}
+.avatarCon2 {
+  width: 37%;
+  position: relative;
+  top: 12px;
+  float: right;
+}
+.avatarText {
+  color: #7fc5c7;
+}
+.checkLabel{
+  position: relative;
+  right: 10px
+}
+.one {
+  font-size: 20px;
+}
+.i.left {
+  margin-right: 0px
+}
+button:focus {
+  background: yellow
+}
+
+.two {
+  font-size: 12px;
+  position: relative;
+  left: 55px;
+  bottom: 22px;
+}
+
+.arrowAvatar {
+  float: right;
+  position: relative;
+  top: 15px;
+  color: #ececec;
+}
+
+
+.mainPaper {
+  position: relative;
+  top: 26px;
+  min-height: 62px;
+  max-width: 1294px;
+  width: 80%;
+  margin: auto;
+  padding-left: 30px;
+  background: white;
+  box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.2), 0 1px 2px 0 rgba(0, 0, 0, 0.19);
+  margin-top: 15vh;
+  padding-bottom: 24px;
+ // padding-right: 13px;
+}
+ 
+.border-top{
+min-height: 1px;
+border-top: 1px solid lightgray;
+}
+.panelDate {
+  position: relative;
+  left: 2px;
+  bottom: 5px;
+}
+.textPanel {
+  width: 62%;
+  color: #d7b570;
+}
+
+.textPanel h4 {
+  font-size: 25px;
+}
+
+.collabPanel {
+  display: flex;
+  padding-right: 26px;
+}
+
+.box-1 {
+  flex: 1;
+}
+
+.box-2,
+.box-3 {
+  position: relative;
+  top: 12px;
+}
+
+.input-field input[type="text"]:focus + label {
+  color: #000;
+}
+.search {
+  position: relative;
+  color: #aaa;
+  font-size: 16px;
+}
+
+.search input {
+  width: 250px;
+  width: 22vw;
+  height: 32px;
+
+  background: #fcfcfc;
+  border: 1px solid lightgrey;
+  border-radius: 5px;
+}
+
+.search input {
+  text-indent: 12px;
+  max-width: 326px;
+}
+.search .fa-search {
+  position: absolute;
+  top: 6px;
+  right: 0;
+}
+
+.colFlex {
+  display: flex;
+  height: 92px;
+}
+
+.colaboradores {
+  color: lightgrey;
+  font-size: 16px;
+  position: relative;
+  top: 9px;
+}
+
+.collec {
+  border-left-color: white;
+  border-right-color: white;
+}
+
+.title {
+  font-weight: bold;
+}
+
+.visible {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 1;
+}
+
+.main {
+  z-index: -1;
+}
+.email {
+  color: lightgrey;
+  position: relative;
+  top: -17px;
+}
+.btnPanel {
+  margin-bottom: 66px;
+}
+.subTitle {
+  font-size: 12px;
+}
+
+.marginCol1 {
+  flex: 2;
+}
+.marginCol2 {
+  flex: 1;
+  position: relative;
+  left: -70px;
+}
+.marginCol3 {
+  flex: 1;
+  position: relative;
+  left: -70px;
+}
+.subText {
+  position: relative;
+  font-size: 13px;
+  bottom: 14px;
+}
+
+.colbtn {
+  position: relative;
+  top: 21px;
+  left: 12px
+}
+
+.imagem{
+position: relative;
+top: 3px;
+left: -7px;
+}
+.btnS {
+  cursor: pointer;
+  background: #f5f5f5;
+  color: lightgrey;
+  border: none;
+  height: 32px;
+  width: 103px;
+  border-radius: 12px;
+}
+
+.btnRemover,
+.add {
+  color: #d7b570;
+}
+
+.addpo {
+  position: relative;
+  left: 5px;
+  font-size: 22px;
+}
+
+.addco {
+  position: relative;
+  width: 144px;
+  line-height: 1.5;
+  top: 12px;
+  left: -20px;
+}
+
+.cont {
+  min-width: 204px;
+  position: relative;
+  top: 16px
+}
+.baixar{
+  position: relative;
+  bottom: 4px
+}
+
+.posCont {
+  position: relative;
+  left: 0;
+}
+.menu {
+  display: none;
+}
+.weight {
+  color: #e4bb69;
+}
+.weight:focus {
+  background: #f5f5f5;
+}
+.search input{
+  border: none;
+}
+.check:focus {
+  background: #f5f5f5;
+}
+.checkmark {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 25px;
+  width: 25px;
+  background-color: #eee;
+}
+
+.container input:checked ~ .checkmark {
+  background-color: #2196f3;
+}
+.checkmark:after {
+  left: 9px;
+  top: 5px;
+  width: 5px;
+  height: 10px;
+  -webkit-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  transform: rotate(45deg);
+}
+.checkbox {
+  margin-left: 12px;
+  margin-bottom: 4px;
+}
+.checklist {
+  width: 97%;
+  min-height: 100px;
+  background: #fafafa;
+  border-left: 7px solid #d69718;
+  padding-bottom: 14px;
+  display: none;
+  position: relative;
+  bottom: 33px;
+  min-width: 322px;
+}
+
+.checkbox input[type="checkbox"] {
+  opacity: 0;
+}
+
+
+
+.checkbox label {
+  position: relative;
+  display: inline-block;
+
+  /*16px width of fake checkbox + 6px distance between fake checkbox and text*/
+  padding-left: 32px;
+}
+
+.checkbox label::before,
+.checkbox label::after {
+  position: absolute;
+  content: "";
+
+  /*Needed for the line-height to take effect*/
+  display: inline-block;
+}
+
+/*Outer box of the fake checkbox*/
+.checkbox label::before {
+  height: 16px;
+  width: 16px;
+  border: 2px solid #4bb0bb;
+  border-radius: 12%;
+  left: 0px;
+  bottom: 10px;
+}
+
+/*Checkmark of the fake checkbox*/
+.checkbox label::after {
+  height: 16px;
+  width: 16px;
+  bottom: 10px;
+  left: 0;
+  background: #dea727;
+  border-radius: 12%;
+}
+
+/*Hide the checkmark by default*/
+.checkbox input[type="checkbox"] + label::after {
+  content: none;
+}
+
+/*Unhide on the checked state*/
+.checkbox input[type="checkbox"]:checked + label::after {
+  content: "";
+}
+
+.checkItem {
+  position: relative;
+  top: 42px;
+}
+
+.labelCheck {
+  font-size: 13px;
+  position: relative;
+  bottom: 7px;
+}
+
+.textCheck {
+  position: relative;
+  bottom: 4px;
+  left: 32px;
+}
+.search .fa-search{
+  color: lightgrey;
+  cursor: pointer
+}
+.textColab{
+  color: #4bb0bb
+}
+
+
+
+@media only screen and (max-width: 900px) {
+  .colFlex {
+    height: 100%;
+    flex-direction: column;
+  }
+  .colbtn {
+    position: relative;
+    top: 0;
+    left: 0;
+  }
+ 
+  .marginCol2 {
+    position: relative;
+    left: -0px
+  }
+  .marginCol3 {
+    position: relative;
+    left: -0px
+  }
+  .menu {
+    display: block;
+    cursor: pointer;
+  }
+  .collabPanel {
+    padding-right: 24px;
+}
+  .subTitle {
+    bottom: 22px;
+    position: relative;
+  }
+  .subText {
+    bottom: 33px;
+    position: relative;
+  }
+  .size {
+    font-size: 12px;
+  }
+  .sideBar {
+    display: none;
+    width: 70%;
+    //position: absolute
+  }
+  .mainPaper {
+    width: 100%;
+    position: relative;
+    top: 0;
+    margin-top: 0
+  }
+}
+@media only screen and (max-width: 614px) {
+  .textPanel h4 {
+    width: 133px;
+  }
+  .mainPaper {
+    padding-left: 12px;
+    padding-right: 12px;
+    min-width: 0px;
+  }
+  .addco {
+    width: 132px;
+  }
+  .collabPanel{
+    left: 12px;
+   position: relative;
+  }
+}
+@media only screen and (max-width: 364px) {
+  .textPanel {
+    position: relative;
+    top: 72px;
+    margin-bottom: 77px;
+  }
+
+  .mainPaper {
+    padding-left: 12px;
+  }
+  .collabPanel {
+    flex-direction: column;
+    margin-top: -66px;
+    margin-right: -12px
+  }
+  .addco {
+    width: 100%;
+    position: relative;
+    left: 0;
+    margin-bottom: 12px;
+  }
+  .search input {
+    width: 100%;
+    margin-bottom: 12px;
+  }
+  .colaboradores {
+    position: relative;
+    top: 24px;
+  }
+  .colbtn{
+    position: relative;
+    left: 1px
+  }
+  .border-top{
+    position: relative;
+    top: 7px
+  }
+
+}
+
+@media only screen and (max-width: 324px) {
+  margin-bottom: none;
+}
