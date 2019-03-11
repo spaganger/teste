@@ -56,7 +56,7 @@ body {
   position: relative;
   top: 6px;
   margin-left: 18px;
-  margin-right: 15px;
+  margin-right: 20px;
   color: #dea92d;
 }
 
@@ -129,7 +129,6 @@ button:focus {
   box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.2), 0 1px 2px 0 rgba(0, 0, 0, 0.19);
   margin-top: 15vh;
   padding-bottom: 24px;
- // padding-right: 13px;
 }
  
 .border-top{
@@ -481,7 +480,6 @@ left: -7px;
   .sideBar {
     display: none;
     width: 70%;
-    //position: absolute
   }
   .mainPaper {
     width: 100%;
@@ -550,3 +548,4 @@ left: -7px;
 @media only screen and (max-width: 324px) {
   margin-bottom: none;
 }
+
